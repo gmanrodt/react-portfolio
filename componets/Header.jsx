@@ -5,9 +5,9 @@ export default function Header(){
 
 
     return(
-        <div className="d-flex">
+        <div>
             <main className="w-75 px-5">
-                <h1>Anna Manrodt</h1>
+                <h1 className="title">Anna Manrodt</h1>
             </main>
         </div>
     )

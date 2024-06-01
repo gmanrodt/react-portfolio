@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import React, { useEffect } from 'react';
-
+import Project from "../../componets/Project";
 export default function Portfolio(){
 
 
@@ -13,7 +13,7 @@ export default function Portfolio(){
 
     return(
         <div>
-
+                <Project/>
         </div>
     )
 

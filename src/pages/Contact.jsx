@@ -15,16 +15,16 @@ export default function Contact() {
             <form>
                 <div className="form-group">
                     <label>Name: </label>
-                    <input type="Name" className="form-control" id="name" placeholder="John Doe" />
+                    <input type="Name" className="form-control" id="name" placeholder="John Doe" required />
                 </div> 
                 <div className="form-group">
                     <label>Email address</label>
-                    <input type="email" className="form-control" id="email" aria-describedby="email" placeholder="Enter email" />
+                    <input type="email" className="form-control" id="email" aria-describedby="email" placeholder="Enter email" required />
                     <small id="email" className="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div> for
                 <div className="form-group">
                     <label>Message</label>
-                    <textarea className="form-control" id="Message" rows="3"></textarea>
+                    <textarea className="form-control" id="Message" rows="3" required ></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>

@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import AboutMe from './pages/AboutMe';
@@ -11,6 +12,8 @@ import Footer from '../componets/Footer';
 import Nav from '../componets/Nav';
 
 export default function App() {
+  const [currentSection, setCurrentSection] = useState('About Me')
+  
   return (
     <>
       <Header />

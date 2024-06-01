@@ -4,39 +4,68 @@
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.viaoda-libre-regular {
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: url('../imgs/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg') center/cover no-repeat; /* Shorthand for background properties */
+  font-family: "Viaoda Libre", serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.title{
+font-size: 100px;
+margin-bottom: 0%;
+margin-top: 0%;
+position: sticky;
 }
 
-.card {
-  padding: 2em;
+.textContent{
+  font-size: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+ul {
+  list-style-type: none; /* Remove default list styling */
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  
+}
+
+li {
+  display: inline; /* Display list items inline */
+  padding: 5px;
+}
+
+.profileImg{
+  max-width: 20%;
+}
+.projectImgs{
+  max-width: 90%;
+  padding: 10%;
+}
+
+.highlighted {
+  font-weight: bold;
+  color: rgb(237, 237, 247);
+}
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px; 
+  text-align: center;
+}
+
+.projectContainers{
+  text-align: center;
+}  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
