@@ -1,8 +1,31 @@
-# React + Vite
+# Professional React Portfolio
+##### This project is a portfolio made using react to display a sample of my work.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## table of contents 
+- [Title](#title)
+- [Description](#description)
+- [Instaltion](#instaltion)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Tests](#tests)
+- [License](#license)
+- [Questiosn](#questions)
 
-Currently, two official plugins are available:
+## Instaltion
+##### vite and react.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+##### Please use this web appliaction to view a sample of my work.
+
+## Contributions
+##### I liked to thank my bootcamp class for all they have taught me and a special shout out to gary Alams and Greg Manrodt. No contribtuions at this time.
+
+## Tests
+##### None at this time.
+
+## License
+##### none
+
+## Questions
+##### For more of my work, checkout my github! https://github.com/AnnaManrodt 
+##### Any addtional questions? you can reach me at anna.manrodts@gmail.com. 
