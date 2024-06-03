@@ -1,0 +1,11 @@
+form {
+    text-align:left;
+}
+
+form .form-label{
+    min-width:50%;
+}
+
+form .form-control{
+    min-width:50%;
+}

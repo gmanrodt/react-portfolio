@@ -2,6 +2,7 @@ import './App.css';
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Index from './pages/Index';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -16,10 +17,11 @@ export default function App() {
   
   return (
     <>
-      <Header />
       <BrowserRouter>
+        <Header />
         <Nav />
         <Routes>
+          <Route path="/" element={<Index />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />

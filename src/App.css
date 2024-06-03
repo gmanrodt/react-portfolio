@@ -31,15 +31,28 @@ ul {
   display: block;
   padding: 10px 15px;
   text-decoration: none;
-  color: white;
-  font-size: 25px;
   
+  font-size: 25px;
 }
-
 li {
-  display: inline; /* Display list items inline */
+  display: inline;
   padding: 5px;
 }
+
+
+div.proficiencies{
+  max-width: 100vw;
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+div.proficiencies div{
+  width: 100px; 
+  margin:5px;
+}
+
+
 
 .profileImg{
   max-width: 20%;
@@ -49,9 +62,9 @@ li {
   padding: 10%;
 }
 
-.highlighted {
-  font-weight: bold;
-  color: rgb(237, 237, 247);
+a.active {
+  text-decoration: underline;
+  
 }
 /* .container {
   display: grid;
