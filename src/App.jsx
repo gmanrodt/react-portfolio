@@ -8,9 +8,9 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
-import Header from '../componets/Header';
-import Footer from '../componets/Footer';
-import Nav from '../componets/Nav';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
 
 export default function App() {
   const [currentSection, setCurrentSection] = useState('About Me')

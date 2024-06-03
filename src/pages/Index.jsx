@@ -11,7 +11,7 @@ export default function Index() {
     return (
         <div>
             <p className="textContent">
-            Index page. Nothing here.
+            
             </p>
         </div>
     )

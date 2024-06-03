@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import React, { useEffect } from 'react';
-import Project from "../../componets/Project";
+import Project from "../components/Project";
 export default function Portfolio(){
 
 
