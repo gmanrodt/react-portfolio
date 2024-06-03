@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import React, { useEffect } from 'react';
-
+import { Button, Form, FormGroup, FormLabel, FormControl } from 'react-bootstrap'
 export default function Contact() {
 
     const navigate = useNavigate();
@@ -10,24 +10,23 @@ export default function Contact() {
     }, []);
 
     return (
-        <div className="form-group">
-            <h2>Contact Me</h2>
-            <form>
-                <div className="form-group">
-                    <label>Name: </label>
-                    <input type="Name" className="form-control" id="name" placeholder="John Doe" required />
-                </div> 
-                <div className="form-group">
-                    <label>Email address</label>
-                    <input type="email" className="form-control" id="email" aria-describedby="email" placeholder="Enter email" required />
-                    <small id="email" className="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div> for
-                <div className="form-group">
-                    <label>Message</label>
-                    <textarea className="form-control" id="Message" rows="3" required ></textarea>
-                </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
-            </form>
-        </div>
+<Form className="border p-3">
+    <FormGroup className="mb-3">
+        <h2>Contact Me</h2>
+    </FormGroup>
+    <FormGroup className="mb-3">
+        <FormLabel>Name:</FormLabel>
+        <FormControl type="text" placeholder="John Doe" required />
+    </FormGroup>
+    <FormGroup className="mb-3">
+        <FormLabel>Email address</FormLabel>
+        <FormControl type="email" placeholder="Enter email" required />
+    </FormGroup>
+    <FormGroup className="mb-3">
+        <FormLabel>Message</FormLabel>
+        <FormControl as="textarea" rows={3} required />
+    </FormGroup>
+    <Button type="submit" variant="primary">Submit</Button>
+</Form>
     )
 }

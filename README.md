@@ -12,7 +12,7 @@
 - [Questiosn](#questions)
 
 ## Instaltion
-##### vite and react.
+##### vite and react, react social icons.
 
 ## Usage
 ##### Please use this web appliaction to view a sample of my work.

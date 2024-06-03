@@ -69,3 +69,21 @@ li {
   justify-content: center;
   align-items: center;
 }
+
+.form{
+border: gray 5px 5px 5px ;
+}
+
+.footerIcon{
+margin-left: 10%;
+margin-right: 10%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer{
+  margin-top: auto;
+}
